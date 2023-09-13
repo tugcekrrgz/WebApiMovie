@@ -24,21 +24,21 @@
                             <form>
                                 <div class="mt-2">
                                     <label>Movie Name</label>
-                                    <input type="text" class="form-control" placeholder="Enter movie name.">
+                                    <input id="movieName" type="text" class="form-control" placeholder="Enter movie name.">
                                 </div>
                                 <div class="mt-2">
                                     <label>Movie Genre</label>
-                                    <input type="text" class="form-control" placeholder="Enter movie genre.">
+                                    <input id="movieGenre" type="text" class="form-control" placeholder="Enter movie genre.">
                                 </div>
                                 <div class="mt-2">
                                     <label>Movie Description</label>
-                                    <textarea cols="10" rows="5" class="form-control" placeholder="Enter movie description."></textarea>
+                                    <textarea id="movieDescription" cols="10" rows="5" class="form-control" placeholder="Enter movie description."></textarea>
                                 </div>
                                 <div class="mt-2">
                                     <label>Movie Rank</label>
-                                    <input type="number" class="form-control">
+                                    <input id="movieRank" type="number" class="form-control">
                                 </div>
-                                <button type="submit" class="btn btn-primary mt-2">Create Movie</button>
+                                <button id="btnCreate" type="submit" class="btn btn-primary mt-2">Create Movie</button>
                             </form>
                         </div>
                     </div>
@@ -58,8 +58,8 @@
                                         <th></th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
+                                <tbody id="movieBody">
+                                    <!-- <tr>
                                         <td>Test Movie Name</td>
                                         <td>Test Movie Description</td>
                                         <td>0.0</td>
@@ -67,7 +67,7 @@
                                             <button class="btn btn-warning btn-sm">Update</button>
                                             <button class="btn btn-danger btn-sm">Delete</button>
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
@@ -85,6 +85,10 @@
     <footer class="text-center">
         <span>Movie Project 2023</span>
     </footer>
+
+    <script src="js/jquery.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/site.js"></script>
 </body>
 </html>

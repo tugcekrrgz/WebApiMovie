@@ -2890,11 +2890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\12.09.2023\\WebApiMovie\\WebApiMovie\\WebApiMovie.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\13.09.2023\\WebApiMovie\\WebApiMovie\\WebApiMovie.csproj",
       "projectName": "WebApiMovie",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\12.09.2023\\WebApiMovie\\WebApiMovie\\WebApiMovie.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\13.09.2023\\WebApiMovie\\WebApiMovie\\WebApiMovie.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\12.09.2023\\WebApiMovie\\WebApiMovie\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\13.09.2023\\WebApiMovie\\WebApiMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

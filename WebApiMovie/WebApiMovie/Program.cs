@@ -17,10 +17,23 @@ builder.Services.AddDbContext<MovieContext>
 
 builder.Services.AddScoped<IMovieRepository, MovieService>();
 
+//CORS
+
+builder.Services.AddCors(cors =>
+{
+    cors.AddPolicy("MovieOrigin", p =>
+    {
+        p.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
+
 
 var app = builder.Build();
 
 app.UseRouting();
+
+app.UseCors("MovieOrigin");
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
