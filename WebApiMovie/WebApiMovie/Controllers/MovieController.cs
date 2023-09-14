@@ -24,7 +24,7 @@ namespace WebApiMovie.Controllers
             var result=_movieRepository.AddMovie(movie);
             if (result == StatusMessage.Ok)
             {
-                return Ok();
+                return Ok(movie);
             }
             else
             {
